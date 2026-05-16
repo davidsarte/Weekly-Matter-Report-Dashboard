@@ -6,7 +6,8 @@ I currently work in Big Law as a conflict/new business intake analyst assisting 
 
 However, there is no standardized tracking system for matters. Team members develop their own way of keeping track of their matters, but a significant portion rely entirely on manual data entry. With plenty of information needed to keep track of, data entry can take up to 30 minutes a day, which also creates human error.
 
-Leveraging, my prior experience working with retail sales data, training from Google Data Analytics Specialization, and earning my bachelor's in business from San Jose State University, I have created an ETL pipeline and dashboard to keep track of my matters and showcase personal metrics during weekly meetings.
+Leveraging, my prior experience working with retail sales data, training from Google Data Analytics Specialization, and earning my bachelor's in business from San Jose State University, I created an ETL pipeline and dashboard to keep track of my matters and showcase personal metrics during weekly meetings.
 
+<p align="center">
 <img width="735" height="632" alt="Weekly Dashboard" src="https://github.com/user-attachments/assets/9c56469a-8778-4da7-bfb5-6efa309a2d0d" />
-
+</p>
