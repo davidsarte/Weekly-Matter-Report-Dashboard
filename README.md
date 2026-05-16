@@ -1,4 +1,4 @@
-# Weekly-Matter-Report-Dashboard
+# Weekly Matter Report Dashboard
 A recreation of my customized dashboard I use to track the status, age, and outstanding items of legal matters
 
 ##Introduction
@@ -11,3 +11,19 @@ Leveraging, my prior experience working with retail sales data, training from Go
 <p align="center">
 <img width="735" height="632" alt="Weekly Dashboard" src="https://github.com/user-attachments/assets/9c56469a-8778-4da7-bfb5-6efa309a2d0d" />
 </p>
+
+This dashboard visualizes essential tracking information, focusing on what items are outstanding for in-progress matters before they can be opened, and exactly how long those matters have been pending. It also features a third chart tracking matter distribution by practice group. This metric became critical following a recent lateral partner arrival, which triggered a massive influx of new work within the Employee Benefits group.
+
+
+## Data Pipeline & Architecture (ETL)
+The underlying sanitized dataset can be found in the repository file [Work Dashboard - Queue.csv](Work%20Dashboard%20-%20Queue.csv).
+
+### Transformation & Cleaning Steps
+1. **Data Sanitization & Privacy Compliance:** Because Big Law firm data is privileged and confidential, I engineered a fully synthesized dataset. Using a variation ofrandomization functions, I generated random client and attorney names.
+2. **Data Extraction:** Since the conflicts database allows me to export my queue into Excel, I created an export sheet to paste new matters into. The main "Queue" spreadsheet then extracts necessary information from that raw export, while keeping track of outstanding items and real-time status updates using custom dropdown selectors.
+
+---
+
+## Business Impact & Core Metrics
+* **Eliminated Administrative Drain:** Automated data entry, mitigating administrative overhead through an automated ETL pipeline.
+* **Data-Driven Performance:** Established metrics-based reporting to streamline weekly manager meetings, optimizing discussion time by visually presenting my personal queue rather than reviewing each individual matter line-by-line.
