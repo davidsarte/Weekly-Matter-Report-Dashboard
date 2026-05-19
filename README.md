@@ -1,5 +1,5 @@
 # Weekly Matter Report Dashboard
-A recreation of my customized dashboard I use to track the status, age, and outstanding items of legal matters
+A re-creation of my customized dashboard I use to track the status, age, and outstanding items of legal matters
 
 ## Introduction
 I currently work in Big Law as a conflict/new business intake analyst assisting in the IP, Employee Benefits, and Private Client practice Groups. In a Big Law setting, the influx of matters is substantial compared to other legal sectors. Some weeks, we receive up to 50 and a many require complex waiver processes or even need expediting to close a deal. 
